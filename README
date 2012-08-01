@@ -1,0 +1,24 @@
+Test Suite
+----------
+
+This directory contains a test suite consisting of various test cases.
+New tests can simply be placed into this directory (see test_template.cpp
+for an example). The Makefile will build and run them automatically together
+with the existing tests (target: test).
+
+All tests use the cppunit testing framework (http://cppunit.sf.net), a C++
+implementation of the popular junit package. Cppunit is available as a
+Debian/Ubuntu package (libcppunit-dev), or via
+
+	https://sourceforge.net/project/showfiles.php?group_id=11795
+
+
+The CppUnit Cookbook:
+	http://cppunit.sourceforge.net/doc/lastest/cppunit_cookbook.html
+
+CppUnit Doxygen documentation:
+	http://cppunit.sourceforge.net/doc/lastest/index.html
+
+List of available assertions:
+	http://cppunit.sourceforge.net/doc/lastest/group___assertions.html
+

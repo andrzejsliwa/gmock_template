@@ -1,0 +1,16 @@
+# compiled object files
+*.slo
+*.lo
+*.o
+
+# compiled dynamic libraries
+*.so
+
+# compiled static libraries
+*.lai
+*.la
+*.a
+build
+
+# ignore mac specific files
+.DS_Store

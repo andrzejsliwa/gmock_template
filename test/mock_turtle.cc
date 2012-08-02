@@ -18,8 +18,9 @@ using ::testing::AtLeast;
 
 TEST(PainterTest, CanDrawSomething) {
   MockTurtle turtle;                          
-  EXPECT_CALL(turtle, PenDown())             
-      .Times(AtLeast(1));
+  EXPECT_CALL(
+    turtle, PenDown()
+  ).Times(AtLeast(1));
 
   turtle.PenDown();                        
 
